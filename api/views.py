@@ -19,5 +19,3 @@ class LibUserViewSet(viewsets.ModelViewSet):
 class RentBookViewSet(viewsets.ModelViewSet):
     queryset = RentBook.objects.all()
     serializer_class = RentBookSerializers
-    
-    
